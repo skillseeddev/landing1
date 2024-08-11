@@ -116,13 +116,13 @@ function InformationButton() {
                 href="https://linkedin.com/in/alexaltr"
               >
                 LinkedIn!
-              </a>{" "}
-              Check out my{" "}
+              </a>
+              You can contact me at alex@skillseed.org 😉 Check out my{" "}
               <a style="font-weight:bold" href="https://ielts2.skillseed.org">
                 latest project
               </a>{" "}
-              here! Contact me at alex@skillseed.org 😉 Thanks to{" "}
-              <a href="https://vercel.com">Vercel</a> for this card model!
+              here! Thanks to <a href="https://vercel.com">Vercel</a> for this
+              card model!
             </p>
           </ModalBody>
           <ModalFooter></ModalFooter>
