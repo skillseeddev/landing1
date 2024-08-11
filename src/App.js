@@ -107,11 +107,24 @@ function InformationButton() {
             {/* You can put any information or content here */}
             <p>
               I am the sole developer behind{" "}
-              <a href="https://skillseed.org">Skillseed.org</a>, a free tool
-              directory for students. Check out my{" "}
-              <a href="https://linkedin.com/in/alexaltr">LinkedIn!</a>
-              You can contact me at alex@skillseed.org 😉 Check out my{" "}
-              <a href="https://ielts2.skillseed.org">latest project</a> here!
+              <a style="font-weight:bold" href="https://skillseed.org">
+                Skillseed.org
+              </a>
+              , a free tool directory for students. <br />
+              Check out my{" "}
+              <a
+                style="font-weight:bold"
+                href="https://linkedin.com/in/alexaltr"
+              >
+                LinkedIn!
+              </a>{" "}
+              <br />
+              Check out my{" "}
+              <a style="font-weight:bold" href="https://ielts2.skillseed.org">
+                latest project
+              </a>{" "}
+              here! <br />
+              You can contact me at alex@skillseed.org 😉 <br />
               Thanks to <a href="https://vercel.com">Vercel</a> for this card
               model!
             </p>
