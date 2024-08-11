@@ -106,21 +106,21 @@ function InformationButton() {
           <ModalBody>
             {/* You can put any information or content here */}
             <p>
-              I am the sole developer behind{" "}
+              I am the sole developer behind
               <a style="font-weight:bold" href="https://skillseed.org">
                 Skillseed.org
               </a>
-              , a free tool directory for students. Check out my{" "}
+              , a free tool directory for students. Check out my
               <a
                 style="font-weight:bold"
                 href="https://linkedin.com/in/alexaltr"
               >
                 LinkedIn!
               </a>
-              You can contact me at alex@skillseed.org 😉 Check out my{" "}
+              You can contact me at alex@skillseed.org 😉 Check out my
               <a style="font-weight:bold" href="https://ielts2.skillseed.org">
                 latest project
-              </a>{" "}
+              </a>
               here! Thanks to <a href="https://vercel.com">Vercel</a> for this
               card model!
             </p>
