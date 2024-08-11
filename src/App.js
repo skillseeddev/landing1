@@ -92,23 +92,26 @@ function InformationButton() {
         bottom="10px"
         left="50%"
         transform="translateX(-50%)"
-        colorScheme="teal"
+        colorScheme="green"
         onClick={onOpen}
       >
-        Open Information
+        About Me ✨
       </Button>
 
       <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
         <ModalContent>
-          <ModalHeader>Information</ModalHeader>
+          <ModalHeader>I'm Alex!👋</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
             {/* You can put any information or content here */}
-            <p>This is the information pop-up below the card.</p>
+            <p>
+              I am the sole developer behing Skillseed.org, a free tool
+              directory for students.
+            </p>
           </ModalBody>
           <ModalFooter>
-            <Button colorScheme="blue" mr={3} onClick={onClose}>
+            <Button colorScheme="green" mr={3} onClick={onClose}>
               Close
             </Button>
           </ModalFooter>
