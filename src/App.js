@@ -101,20 +101,22 @@ function InformationButton() {
       <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
         <ModalContent>
-          <ModalHeader>I'm Alex!👋</ModalHeader>
+          <ModalHeader>I'm Alex👋</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
             {/* You can put any information or content here */}
             <p>
-              I am the sole developer behing Skillseed.org, a free tool
-              directory for students.
+              I am the sole developer behind{" "}
+              <a href="https://skillseed.org">Skillseed.org</a>, a free tool
+              directory for students. Check out my{" "}
+              <a href="https://linkedin.com/in/alexaltr">LinkedIn!</a>
+              You can contact me at alex@skillseed.org 😉 Check out my{" "}
+              <a href="https://ielts2.skillseed.org">latest project</a> here!
+              Thanks to <a href="https://vercel.com">Vercel</a> for this card
+              model!
             </p>
           </ModalBody>
-          <ModalFooter>
-            <Button colorScheme="green" mr={3} onClick={onClose}>
-              Close
-            </Button>
-          </ModalFooter>
+          <ModalFooter></ModalFooter>
         </ModalContent>
       </Modal>
     </>
