@@ -110,7 +110,7 @@ function InformationButton() {
               <a href="https://skillseed.org"> Skillseed.org ↗️</a>, a free tool
               directory for students. Check out my
               <a href="https://linkedin.com/in/alexaltr"> LinkedIn! ↗️ </a>
-              Contact me at alex@skillseed.org 😉 Thanks to
+              Contact me at alex@skillseed.org 😉 & thanks to
               <a href="https://vercel.com"> Vercel</a> for this card model!
             </p>
           </ModalBody>
