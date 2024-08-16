@@ -107,10 +107,14 @@ function InformationButton() {
             {/* You can put any information or content here */}
             <p>
               I am the sole developer behind
-              <a href="https://skillseed.org"> Skillseed.org 🍏</a>, a free tool
-              directory for students. Check out our
-              <a href="https://tools.skillseed.org/">free tools!🤖</a>
-              Contact me at alex@skillseed.org & thanks to
+              <b>
+                <a href="https://skillseed.org"> Skillseed.org 🍏</a>
+              </b>
+              , a free tool directory for students. Check out our
+              <b>
+                <a href="https://tools.skillseed.org/">free tools!🤖</a>
+              </b>
+              Contact me at <b>alex@skillseed.org</b> & thanks to
               <a href="https://vercel.com"> Vercel</a> for this card model!
             </p>
           </ModalBody>
