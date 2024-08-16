@@ -112,7 +112,7 @@ function InformationButton() {
               </b>
               , a free tool directory for students. Check out our
               <b>
-                <a href="https://tools.skillseed.org/">free tools!🤖</a>
+                <a href="https://tools.skillseed.org/"> free tools!🤖</a>
               </b>
               Contact me at <b>alex@skillseed.org</b> & thanks to
               <a href="https://vercel.com"> Vercel</a> for this card model!
