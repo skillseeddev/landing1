@@ -95,7 +95,7 @@ function InformationButton() {
         colorScheme="green"
         onClick={onOpen}
       >
-        About Me ✨
+        Surprise ✨
       </Button>
 
       <Modal isOpen={isOpen} onClose={onClose}>
