@@ -32,7 +32,7 @@ import { useControls } from "leva";
 
 extend({ MeshLineGeometry, MeshLineMaterial });
 useGLTF.preload(
-  "https://raw.githubusercontent.com/qwertuop/a/main/untitled.glb"
+  "https://raw.githubusercontent.com/qwertuop/landing/main/Scene.glb"
 );
 useTexture.preload(
   "https://raw.githubusercontent.com/qwertuop/a/main/band.png"
@@ -101,21 +101,19 @@ function InformationButton() {
       <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
         <ModalContent>
-          <ModalHeader>I'm Alex👋</ModalHeader>
+          <ModalHeader>A gift for you 🎁</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
             {/* You can put any information or content here */}
             <p>
-              I am the sole developer behind
-              <b>
-                <a href="https://skillseed.org"> Skillseed.org 🍏</a>
-              </b>
-              , a free tool directory for students. Check out our
-              <b>
-                <a href="https://tools.skillseed.org/"> free tools!🤖</a>
-              </b>
-              Contact me at <b>alex@skillseed.org</b> & thanks to
-              <a href="https://vercel.com"> Vercel</a> for this card model!
+              Thank you for being part of the 18,000 club! It has been a hectic
+              2 weeks since Skillseed was born, and we could've never expected
+              the love you give to us. As a thank you, here's an exclusive
+              <a href="https://drive.google.com/file/d/1dVnk2SIHNoXkXlqafNigjVoI24KRoixK/view?usp=sharing">
+                {" "}
+                free wallpaper
+              </a>{" "}
+              & watch out for new tools coming very soon! 😉
             </p>
           </ModalBody>
           <ModalFooter></ModalFooter>
@@ -136,7 +134,7 @@ function Band({ maxSpeed = 50, minSpeed = 10 }) {
     linearDamping: 2,
   };
   const { nodes, materials } = useGLTF(
-    "https://raw.githubusercontent.com/qwertuop/a/main/untitled.glb"
+    "https://raw.githubusercontent.com/qwertuop/landing/main/Scene.glb"
   );
   const texture = useTexture(
     "https://raw.githubusercontent.com/qwertuop/a/main/band.png"
