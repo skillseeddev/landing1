@@ -109,10 +109,10 @@ function InformationButton() {
               Thank you for being part of the 18,000 club! It has been a hectic
               2 weeks since Skillseed was born, and we could've never expected
               the love you give to us. As a thank you, here's an exclusive
-              <a href="https://drive.google.com/file/d/1dVnk2SIHNoXkXlqafNigjVoI24KRoixK/view?usp=sharing">
+              <b><a href="https://drive.google.com/file/d/1dVnk2SIHNoXkXlqafNigjVoI24KRoixK/view?usp=sharing">
                 {" "}
                 free wallpaper
-              </a>{" "}
+              </a></b>{" "}
               & watch out for new tools coming very soon! 😉
             </p>
           </ModalBody>
